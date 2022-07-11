@@ -1,0 +1,23 @@
+* {
+    box-sizing: border-box;
+}
+
+#teste {
+    background-color: bisque;
+    border: 1px solid black;
+}
+.carousel-item {
+    height: 70vh;
+}
+
+#searchBar {
+    align-items: center;
+    position: relative;
+    bottom: 45vh;
+    border-radius: 10px;
+    background-color: rgba(245, 245, 245, 0.342)
+}
+
+#iconBar {
+    padding-left: 2.5%;
+}
