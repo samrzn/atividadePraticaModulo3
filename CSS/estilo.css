@@ -2,12 +2,8 @@
     box-sizing: border-box;
 }
 
-#teste {
-    background-color: bisque;
-    border: 1px solid black;
-}
-.carousel-item {
-    height: 70vh;
+main {
+    box-sizing: border-box;
 }
 
 #searchBar {
@@ -19,5 +15,23 @@
 }
 
 #iconBar {
-    padding-left: 2.5%;
+    position: relative;
+    left: 1.3%;
+}
+
+.carousel-item {
+    height: 70vh;
+}
+
+#cardTitle {
+    font-weight: 700;
+    color: #053894;
+}
+
+#priceTag {
+    padding-left: 63%;
+}
+
+#detailTag {
+    padding-left: 63%;
 }
