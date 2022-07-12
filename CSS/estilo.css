@@ -11,6 +11,7 @@ main {
 }
 
 li {
+    font-size: 1.15rem;
     padding-right: 1vw;
     position: relative;
     left: 15vw;
@@ -23,10 +24,42 @@ li {
     font-weight: 700;
 }
 
+.navbar {
+    align-content: center;
+}
+
+.article-index {
+    height: 60vh;
+    background-color: #f1c708;
+}
+
+.article-indexPromo {
+    height: 60vh;
+    background-color: #f14a08;
+}
+
+.article-indexPromo h1 {
+    text-align: center;
+    position: relative;
+    top: 11vh;
+    font-size: 5rem;
+    color: white;
+    text-shadow: 0.3px 0.5px rgba(83, 83, 83, 0.623);
+}
+
+.article-index h1 {
+    text-align: center;
+    position: relative;
+    top: 11vh;
+    font-size: 5rem;
+    color: white;
+    text-shadow: 0.3px 0.5px rgba(83, 83, 83, 0.623);
+}
+
 #searchBar {
     align-items: center;
     position: relative;
-    bottom: 45vh;
+    bottom: 52vh;
     border-radius: 10px;
     background-color: rgba(245, 245, 245, 0.342)
 }
@@ -50,15 +83,165 @@ li {
     padding-left: 30px;
 }
 
+#destinPageCustom {
+    margin-bottom: 15vh;
+    height: 25vh;
+}
+
+#promoPageCustom {
+    margin-bottom: 20vh;
+    height: 25vh;
+}
+
+.col-lg-4 {
+    height: 20vh;
+}
+
+.card-body {
+    margin-bottom: -1.5vh;
+    overflow: hidden;
+}
+
+#cardDestino {
+    height: 21vh;
+}
+
+#cardPromo {
+    height: 25vh;
+}
+
+#cardTitleDestino {
+    font-weight: 700;
+    color: #053894;
+}
+
+#cardTitlePromo {
+    font-weight: 700;
+    color: #053894;
+    font-size: 1.5rem;
+}
+
 #cardTitle {
     font-weight: 700;
     color: #053894;
 }
 
 #priceTag {
-    padding-left: 57%;
+    font-size: 1.27rem;
+    font-weight: 575;
+    color: #f1c708;
+    text-shadow: 1px 1.7px rgba(221, 221, 221, 0.76);
+    position: relative;
+    bottom: 1.5vh;
+    left: 5.5vw;
 }
 
 #detailTag {
-    padding-left: 68%;
+    font-size: 0.80rem;
+    color: rgb(94, 94, 94);
+    font-weight: 450;
+    text-shadow: 0.3px 0.5px rgba(158, 158, 158, 0.623);
+    position: relative;
+    left: 2vw;
+    bottom: -0.5vh;
+}
+
+#priceTagDestino {
+    font-size: 1.27rem;
+    font-weight: 575;
+    color: #f1c708;
+    text-shadow: 1px 1.7px rgba(221, 221, 221, 0.76);
+    position: relative;
+    bottom: 1.5vh;
+    left: 10.5vw;
+}
+
+#detailTagDestino {
+    font-size: 0.80rem;
+    color: rgb(94, 94, 94);
+    font-weight: 450;
+    text-shadow: 0.3px 0.5px rgba(158, 158, 158, 0.623);
+    position: relative;
+    left: 7vw;
+    bottom: -0.5vh;
+}
+
+#priceTagPromo {
+    font-size: 1.5rem;
+    font-weight: 575;
+    color: #f14a08;
+    text-shadow: 1px 1.7px rgba(221, 221, 221, 0.76);
+    position: relative;
+    bottom: 2vh;
+    left: 17.6vw;
+}
+
+#detailTagPromo {
+    font-size: 0.85rem;
+    color: rgb(94, 94, 94);
+    font-weight: 450;
+    text-shadow: 0.3px 0.5px rgba(158, 158, 158, 0.623);
+    position: relative;
+    left: 14vw;
+    bottom: -0.5vh;
+}
+
+#oldPriceTag {
+    font-size: 0.80rem;
+    color: black;
+    font-weight: 400;
+    text-decoration: line-through;
+    position: relative;
+    left: 25.3vw;
+    bottom: 5vh;
+}
+
+.card-img-top {
+    height: 19vh;
+}
+
+#footerBody {
+    background-color: #053894;
+    margin-top: -15vh;
+    grid: 10vw;
+    align-items: center;
+    height: 20vh;
+    text-align: center;
+}
+
+.footerItem {
+    color: white;
+    font-size: 0.78rem;
+    font-weight: 400;
+    display: flex;
+    position: relative;
+    top: 3vh;
+}
+
+.iconSuport h6 {
+    color: rgb(94, 94, 94);
+    position: relative;
+    top: 3vh;
+    left: 5vw;
+    text-shadow: 0.3px 0.5px rgba(83, 83, 83, 0.623);
+}
+
+.footerIcon {
+    box-sizing: border-box;
+    padding: 0.7vw;
+    display: inline;
+    position: relative;
+    top: 3vh;
+    left: 2.25vw;
+}
+
+#footerBase {
+    background-color: #f1c708;
+    text-align: center;
+}
+
+.baseItem {
+    color: white;
+    font-size: 0.9rem;
+    font-weight: 500;
 }
