@@ -39,7 +39,7 @@ li {
 }
 
 .article-indexInfo {
-    height: 56vh;
+    height: 56.5vh;
     background-color: black;
 }
 
@@ -50,6 +50,12 @@ li {
     font-size: 3rem;
     color: white;
     text-shadow: 0.3px 0.5px rgba(83, 83, 83, 0.623);
+}
+
+.contactInfo {
+    font-size: 1.3rem;
+    font-weight: 500;
+    text-decoration: underline;
 }
 
 .article-indexPromo h1 {
