@@ -38,6 +38,20 @@ li {
     background-color: #f14a08;
 }
 
+.article-indexInfo {
+    height: 56vh;
+    background-color: black;
+}
+
+.article-indexInfo h3 {
+    text-align: center;
+    position: relative;
+    top: 11vh;
+    font-size: 3rem;
+    color: white;
+    text-shadow: 0.3px 0.5px rgba(83, 83, 83, 0.623);
+}
+
 .article-indexPromo h1 {
     text-align: center;
     position: relative;
@@ -79,6 +93,16 @@ li {
     z-index: 1;
     border-radius: 10px;
     background-color: rgba(245, 245, 245, 0.342);
+    padding-top: 43px;
+    padding-left: 30px;
+}
+
+#main-contentInfo {
+    position: relative;
+    bottom: 36.5vh;
+    z-index: 1;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.651);
     padding-top: 43px;
     padding-left: 30px;
 }
@@ -209,8 +233,26 @@ li {
     text-align: center;
 }
 
+#footerBodyInfo {
+    background-color: white;
+    margin-top: -15vh;
+    grid: 10vw;
+    align-items: center;
+    height: 20vh;
+    text-align: center;
+}
+
 .footerItem {
     color: white;
+    font-size: 0.78rem;
+    font-weight: 400;
+    display: flex;
+    position: relative;
+    top: 3vh;
+}
+
+.footerItemInfo {
+    color: black;
     font-size: 0.78rem;
     font-weight: 400;
     display: flex;
