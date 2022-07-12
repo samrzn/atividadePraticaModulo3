@@ -6,6 +6,23 @@ main {
     box-sizing: border-box;
 }
 
+#brandTitle {
+    font-size: 1.4rem;
+}
+
+li {
+    padding-right: 1vw;
+    position: relative;
+    left: 15vw;
+    font-weight: 500;
+}
+
+.nav-item :hover {
+    border-radius: 5px;
+    background-color: rgba(245, 245, 245, 0.342);
+    font-weight: 700;
+}
+
 #searchBar {
     align-items: center;
     position: relative;
@@ -23,15 +40,25 @@ main {
     height: 70vh;
 }
 
+#main-content {
+    position: relative;
+    bottom: 24vh;
+    z-index: 1;
+    border-radius: 10px;
+    background-color: rgba(245, 245, 245, 0.342);
+    padding-top: 43px;
+    padding-left: 30px;
+}
+
 #cardTitle {
     font-weight: 700;
     color: #053894;
 }
 
 #priceTag {
-    padding-left: 63%;
+    padding-left: 57%;
 }
 
 #detailTag {
-    padding-left: 63%;
+    padding-left: 68%;
 }
