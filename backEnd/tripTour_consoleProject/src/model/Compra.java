@@ -5,8 +5,8 @@ public class Compra {
 	private String destino;
 	private double valor;
 
-	private Cliente id_cliente;
-	private Pacote id_pacote;
+	private int id_cliente;
+	private int id_pacote;
 
 	public int getId_compra() {
 		return id_compra;
@@ -32,19 +32,19 @@ public class Compra {
 		this.valor = valor;
 	}
 
-	public Cliente getId_cliente() {
+	public int getId_cliente() {
 		return id_cliente;
 	}
 
-	public void setId_cliente(Cliente id_cliente) {
+	public void setId_cliente(int id_cliente) {
 		this.id_cliente = id_cliente;
 	}
 
-	public Pacote getId_pacote() {
+	public int getId_pacote() {
 		return id_pacote;
 	}
 
-	public void setId_pacote(Pacote id_pacote) {
+	public void setId_pacote(int id_pacote) {
 		this.id_pacote = id_pacote;
 	}
 
@@ -52,12 +52,16 @@ public class Compra {
 
 	}
 
-	public Compra(int id_compra, String destino, double valor, Cliente id_cliente, Pacote id_pacote) {
+	public Compra(int id_compra, String destino, double valor, int id_cliente, int id_pacote) {
 		this.id_compra = id_compra;
 		this.destino = destino;
 		this.valor = valor;
 		this.id_cliente = id_cliente;
 		this.id_pacote = id_pacote;
+	}
+
+	public void setFk_id_cliente(int id_cliente) {
+		this.id_cliente = id_cliente;
 	}
 	
 }
