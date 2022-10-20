@@ -59,9 +59,5 @@ public class Compra {
 		this.id_cliente = id_cliente;
 		this.id_pacote = id_pacote;
 	}
-
-	public void setFk_id_cliente(int id_cliente) {
-		this.id_cliente = id_cliente;
-	}
 	
 }
