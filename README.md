@@ -1,4 +1,4 @@
-# atividadePraticaModulo3
+# Atividade Prática do Módulo 3
 
 
 ## Informações do projeto
